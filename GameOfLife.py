@@ -47,7 +47,7 @@ class GameOfLife(object):
                self.juego[nf][nc] = 1
 
 def main( ):
-   clear()
+   clear( )
    print("------------------------------")
    print("Bienvenido al juego de la vida")
    print("------------------------------")

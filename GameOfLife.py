@@ -52,14 +52,14 @@ def main( ):
    print("Bienvenido al juego de la vida")
    print("------------------------------")
 
-   filas, columnas = int(input("filas>>")), int(input("columnas>>"))
-   juego = GameOfLife(filas, columnas)
+   n = int(input("N >> "))
+   juego = GameOfLife(n, n)
 
    while True:
       clear( )
       print(juego)
       juego.recorrer( )
-      time.sleep(0.5)
+      time.sleep(1)
 
 if __name__ == "__main__":
    main( )
